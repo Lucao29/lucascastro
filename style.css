@@ -1,0 +1,357 @@
+* {
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+    :root {
+ --primary-color:#121528;
+ --segund-color:#31313b;
+ --tree-color:#feb200;
+ --white:white;
+ --fontfamily: 'Tilt Neon', sans-serif;
+
+    } 
+
+    
+  
+    
+body, html {
+    background-color: #121528;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.col-12 {
+    width: 100%;
+    flex-direction: center;
+    
+
+    
+}
+
+
+
+
+.container {
+    display: flex;
+justify-content: space-between;
+ flex-direction: column;   
+
+background-image: url(liquid-cheese.svg);
+background-repeat:no-repeat;
+
+
+
+
+
+
+
+
+}
+
+@media(min-width:300px) {
+    body {
+display: flex;
+flex-direction: center;
+justify-content: space-between;
+font-size: 14px;
+font-family: var(--fontfamily);
+    }
+
+}
+   
+  
+ 
+  
+
+.content {
+    font-family: var(--fontfamily);
+    font-size: 70px;
+    padding: 20px;
+color: var(--white);
+}
+
+.background {
+ background-color: var(--primary-color);
+}
+
+
+   
+
+img {
+    border-radius: 8rem;
+    width: 50%;
+    height: auto;
+    margin-left: 5rem;
+    
+    display: flex;
+    flex-direction: column;
+    background-position: 50% 50%;
+    justify-content: center;
+    border-style: solid;
+}
+
+#container {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+  
+}
+
+.conteudo {
+    width: 90%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 40px;
+    row-gap: 20px;
+    
+    
+}
+
+.card1 {
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: 100%;
+    
+    cursor:pointer;
+    flex-direction: column;
+    padding: 0px 0px 30px 20px;
+    font-size: 20px;
+font-family: var(--fontfamily);
+color: var(--segund-color);
+transition: .5s;
+}
+
+.card:hover {
+    
+}
+
+.color-1 {
+    background-color: #31313b;
+    color: #feb200;
+}
+
+.color-2{
+    background-color: #feb200;
+}
+
+.color-3 {
+    background-color: #31313b;
+    color: #feb200;
+}
+
+.img {
+  
+    height: 50px;
+    width: 50px;
+    padding: 30px;
+display: flex;
+flex-direction: center;
+
+
+}
+
+.Contato {
+   display:flex;
+   flex-direction: center;
+   justify-content: space-between;
+   width: 110%;
+   height: 600%;
+   margin-top: 100px;
+   color: var(--tree-color);
+   font-size: 30px;
+   font-family: var(--fontfamily);
+   padding: 4%;
+   background-color: #feb200;
+   color: var(--primary-color);
+}
+
+.formulario {
+
+    display: flex;
+    flex-direction: center;
+    justify-content: space-between;
+    font-size: 20px;
+flex-direction: column;
+justify-content: center center;
+margin-right: 200px;
+margin-top: 10%;
+}
+
+
+.button {
+    display:inline-block;
+    text-align: center;
+    
+    
+    width: fit-content;
+    height: fit-content;
+    margin-left: 40%;
+    margin-top: 12%;
+    
+    
+
+  
+}
+
+
+.img-fluid {
+    margin-top: 10%;
+    transition: transform 0.3s ease-in-out;
+}
+.img-fluid:hover {
+    transform: scale(1.2);
+}
+
+.text {
+   display:flex;
+   flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:var(--white);
+    margin-top: 20px;
+    padding: 20%;
+    
+    
+   
+    
+}
+
+.container1 {
+    display: flex;
+    flex-direction: center center;
+    justify-content: space-between;
+    margin:auto;
+    padding: 5%;
+    margin-top:20%;
+}
+
+.container2 {
+    padding: 2%;
+}
+
+
+.container4 {
+    width: auto;
+    height: max-content;
+    padding: 40px;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: var(--fontfamily);
+    
+    
+    border-radius: 10px;
+    border-color: #feb200;
+    border-style: solid;
+    margin-top: 5%;
+    background: rgb(18,21,40);
+background: -moz-linear-gradient(0deg, rgba(18,21,40,1) 0%, rgba(253,187,45,1) 67%);
+background: -webkit-linear-gradient(0deg, rgba(18,21,40,1) 0%, rgba(253,187,45,1) 67%);
+background: linear-gradient(0deg, rgba(18,21,40,1) 0%, rgba(253,187,45,1) 67%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#121528",endColorstr="#fdbb2d",GradientType=1);
+
+    
+
+}
+
+form {
+    background: rgb(254,178,0);
+background: -moz-radial-gradient(circle, rgba(254,178,0,1) 0%, rgba(18,21,40,1) 98%);
+background: -webkit-radial-gradient(circle, rgba(254,178,0,1) 0%, rgba(18,21,40,1) 98%);
+background: radial-gradient(circle, rgba(254,178,0,1) 0%, rgba(18,21,40,1) 98%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#feb200",endColorstr="#121528",GradientType=1);
+margin-top: 5%;
+padding: 10%;
+}
+
+.enviar {
+    margin-top: 4%;
+}
+
+section {
+    background: rgb(254,178,0);
+    background: -moz-linear-gradient(90deg, rgba(254,178,0,1) 0%, rgba(18,21,40,1) 99%);
+    background: -webkit-linear-gradient(90deg, rgba(254,178,0,1) 0%, rgba(18,21,40,1) 99%);
+    background: linear-gradient(90deg, rgba(254,178,0,1) 0%, rgba(18,21,40,1) 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#feb200",endColorstr="#121528",GradientType=1);
+padding:10%;
+
+}
+
+.text-center {
+    font-family: var(--fontfamily);
+    color:var(--white);
+    font-size: 20px;
+   align-items: column;
+    margin: 10px;
+}
+
+
+
+.quadrado {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+.imagem {
+    cursor: pointer;
+}
+
+
+.textoAnimado {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db;
+    animation: animacaoTexto 2s infinite alternate; /* Nome da animação, duração, número de repetições e direção */
+}
+
+@keyframes animacaoTexto {
+    from {
+        color: #3498db;
+    }
+
+    to {
+        color: #e74c3c;
+    }
+}
+
+
+.textoAnimado1 {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    animation: animacaoTexto1 2s ease-out; /* Nome da animação, duração e função de temporização */
+}
+
+@keyframes animacaoTexto1 {
+    from {
+        transform: translateX(100%); /* Move o texto para fora da tela à direita */
+    }
+
+    to {
+        transform: translateX(0); /* Move o texto para a posição inicial */
+    }
+}
+@media (min-width: 400px) and (max-width: 1280px) {
+  
+}
+
+
+
+
+
+
+
